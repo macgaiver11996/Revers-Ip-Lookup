@@ -11,6 +11,6 @@ api = f"https://api.hackertarget.com/reverseiplookup/?q={ip}"
 response = requests.get(api)
 
 if response.status_code == 200:
-  print ("response.text")
+  print ("ip")
 else:
   print ("Request Faild")
