@@ -2,6 +2,9 @@ import os
 import requests
 import socket
 
+
+os.system(clear)
+
 filename = input("Enter the name : ")
 with open(filename, 'r') as file:
     target_sites = file.read().splitlines()
